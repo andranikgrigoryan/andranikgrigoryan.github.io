@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.parent {
+  position: relative;
+}
+
+.img_info {
+  background: white;
+  border-radius: 30px;
+  padding: 10px;
+  color: rgb(35, 35, 41);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.img_text {
+  padding: 10px;
+  background: #000;
+  color: white;
+  display: none;
+  border: 1px solid rgb(43, 41, 41);
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
